@@ -102,7 +102,7 @@ def unlock():
     for i in range(10,0,-1):
         print(Fore.MAGENTA + f"⏳ Redirecting to telegram in {i} sec..." + Style.RESET_ALL, end="\r")
         time.sleep(1)
-    print(Fore.GREEN + "\n🌍 Opening YouTube... Please join!\n" + Style.RESET_ALL)
+    print(Fore.GREEN + "\n🌍 Opening telegram... Please join!\n" + Style.RESET_ALL)
     os.system("xdg-open https://t.me/wehavedealsfr")
     input(Fore.CYAN + "\n✅ After join, press ENTER to continue..." + Style.RESET_ALL)
 
