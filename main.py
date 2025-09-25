@@ -92,7 +92,7 @@ def upload():
 # ---------------- Banner + Unlock ----------------
 def banner():
     os.system("clear")
-    print(Fore.LIGHTGREEN_EX + Style.BRIGHT + "HCO Cam Tam by Azhar" + Style.RESET_ALL)
+    print(Fore.LIGHTBLUE_EX + Style.BRIGHT + "camhack by Shourya" + Style.RESET_ALL)
 
 def unlock():
     os.system("clear")
