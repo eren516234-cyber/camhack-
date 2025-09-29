@@ -98,7 +98,7 @@ def unlock():
     os.system("clear")
     print(Fore.RED + Style.BRIGHT + "\n🔓 Unlocking camhack" + Style.RESET_ALL)
     print(Fore.YELLOW + "\n👉 To use this tool, you must join to  Shourya's telegram channel." + Style.RESET_ALL)
-    print(Fore.RAINBOW + "\nYou will be redirected automatically in 10 seconds..." + Style.RESET_ALL)
+    print(Fore.BLUE+ "\nYou will be redirected automatically in 10 seconds..." + Style.RESET_ALL)
     for i in range(10,0,-1):
         print(Fore.MAGENTA + f"⏳ Redirecting to telegram in {i} sec..." + Style.RESET_ALL, end="\r")
         time.sleep(1)
