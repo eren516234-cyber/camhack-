@@ -2,7 +2,7 @@
 """
 cam
 By shourya
-Single file - Auto Cloudflare + Unlock
+Single file - Auto Cloudflare 
 """
 
 import os, time, threading, base64
