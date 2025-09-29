@@ -98,12 +98,12 @@ def unlock():
     os.system("clear")
     print(Fore.RED + Style.BRIGHT + "\n🔓 Unlocking camhack" + Style.RESET_ALL)
     print(Fore.YELLOW + "\n👉 To use this tool, you must join to  Shourya's telegram channel." + Style.RESET_ALL)
-    print(Fore.CYAN + "\nYou will be redirected automatically in 3 seconds..." + Style.RESET_ALL)
+    print(Fore.RAINBOW + "\nYou will be redirected automatically in 10 seconds..." + Style.RESET_ALL)
     for i in range(10,0,-1):
         print(Fore.MAGENTA + f"⏳ Redirecting to telegram in {i} sec..." + Style.RESET_ALL, end="\r")
         time.sleep(1)
     print(Fore.GREEN + "\n🌍 Opening telegram... Please join!\n" + Style.RESET_ALL)
-    os.system("xdg-open https://youtube.com/@hackers_colony_tech")
+    os.system("xdg-open https://t.me/wehavedealsfr")
     input(Fore.CYAN + "\n✅ After join, press ENTER to continue..." + Style.RESET_ALL)
 
 # ---------------- Cloudflare Tunnel ----------------
